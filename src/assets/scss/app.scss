@@ -9,8 +9,10 @@
 @import 'testimonials';
 @import 'home';
 @include foundation-global-styles;
-@include foundation-grid;
+// @include foundation-grid;
 // @include foundation-flex-grid;
+//
+@include foundation-xy-grid-classes;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -35,8 +37,6 @@
 @include foundation-orbit;
 @include foundation-pagination;
 @include foundation-progress-bar;
-// @include foundation-progress-element;
-// @include foundation-meter-element;
 @include foundation-slider;
 @include foundation-sticky;
 @include foundation-reveal;
@@ -48,7 +48,15 @@
 @include foundation-tooltip;
 @include foundation-top-bar;
 @include foundation-visibility-classes;
+<<<<<<< HEAD
 @include foundation-float-classes;
 // @include foundation-flex-classes;
+=======
+// @include foundation-float-classes;
+@include foundation-flex-classes;
+
+// @include foundation-prototype-classes;
+
+>>>>>>> 8c9c14e7bd6e11303a823a9cf8a250235a857e33
 @include motion-ui-transitions;
 @include motion-ui-animations;
